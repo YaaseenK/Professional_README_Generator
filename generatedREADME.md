@@ -28,7 +28,7 @@
    npm install --save inquirer@^8.2.4 and npm install fs
 
   ## Usage:
-  	![alt text](./assets/img/unknown.png)
+  	![Terminal](./assets/img/unknown.png)
    README generator
 
   ## Credits:

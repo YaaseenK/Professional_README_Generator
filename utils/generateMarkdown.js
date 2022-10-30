@@ -1,7 +1,7 @@
 // packages for app
 const fs = require('fs');
 const inquirer = require('inquirer');
-const index = require('../../index');
+const index = require('../index');
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -77,13 +77,14 @@ function generateMarkdown(data) {
    ${data.installation}
 
   ## Usage:
+  	![alt text]()
    ${data.usage}
 
   ## Credits:
    ${data.credits}
 
   ## License:
-    ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+    ${renderLicenseSection(data.license)} ![alt text](${renderLicenseBadge(data.license)})
 
   ## Tests:
    Run the following commands in your terminal to test this app:

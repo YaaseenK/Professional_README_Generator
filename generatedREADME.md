@@ -1,6 +1,9 @@
 
   # Professional README Generator
-  
+
+  ## License:
+   MIT   [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)"
+
   ## Description 
    * Motivation:
     To build a readme generator which can be used to regenerate readME documents.
@@ -31,15 +34,10 @@
   ## Credits:
    https://github.com/YaaseenK
 
-  ## License:
-   MIT: [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-      
-    
-
   ## Tests:
    Run the following commands in your terminal to test this app:
    node index.js
 
   ## Contact Info:
-   Github: https://github.com/YaaseenK
-   Email: yaaseenkhan02@gmail.com
+   #Github: https://github.com/YaaseenK
+   #Email: yaaseenkhan02@gmail.com

@@ -1,5 +1,6 @@
-  # Professional README Generator
 
+  # Professional README Generator
+  
   ## Description 
    * Motivation:
     To build a readme generator which can be used to regenerate readME documents.
@@ -31,7 +32,9 @@
    https://github.com/YaaseenK
 
   ## License:
-     MIT  ![image](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+   MIT <img src="(https://img.shields.io/github/license/Naereen/StrapDown.js.svg)" />
+      
+    
 
   ## Tests:
    Run the following commands in your terminal to test this app:

@@ -8,7 +8,7 @@ const index = require('../index');
 function renderLicenseBadge(license) {
   let badge = '';
   if(license === 'MIT') {
-      badge = '(https://img.shields.io/github/license/Naereen/StrapDown.js.svg)'
+      badge = '(https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)'
   } else if (license === 'Apache 2.0') {
       badge = '(https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
   } else if (license === 'GPL v3.0') {
@@ -85,7 +85,7 @@ function generateMarkdown(data) {
    ${data.credits}
 
   ## License:
-  ${renderLicenseSection(data.license)} <img src="${renderLicenseBadge(data.license)}" />
+  ${renderLicenseSection(data.license)} [![GitHub license]${renderLicenseBadge(data.license)}"
     
 
   ## Tests:

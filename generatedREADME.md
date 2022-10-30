@@ -1,27 +1,27 @@
-
   # Professional README Generator
-  
+
   ## Description 
    * Motivation:
-    To build a readme generator which can be used to regenerate readME documents. 
+    To build a readme generator which can be used to regenerate readME documents.
    * Build information:
     ReadMe generator asked user a serise of questions and fortmates and writes a ReadMe document with the information provided.
    * Problem and solutions:
     Create a quick and easy solution to building an high-quality README
    * Knowledge:
-     Use of packages for the app // exporting moduals
+    Use of packages for the app // exporting moduals
 
   ## Table of Contents:
+   * [Description](#description)
+   * [License](#license)
    * [Installation](#installation)
    * [Usage](#usage)
-   * [License](#license)
-   * [Contributors](#contributors)
+   * [Credits](#Credits)
    * [Tests](#tests)
    * [Questions](#questions)
 
   ## Installation:
    You must install the following for this app to function:
-    npm install --save inquirer@^8.2.4 and npm install fs
+   npm install --save inquirer@^8.2.4 and npm install fs
 
   ## Usage:
   	![alt text]()
@@ -31,7 +31,7 @@
    https://github.com/YaaseenK
 
   ## License:
-    License: Apache 2.0  ![alt text](![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg))
+     MIT  ![image](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 
   ## Tests:
    Run the following commands in your terminal to test this app:

@@ -8,7 +8,7 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'What is the title of your project?',
-        validate: titleInput => {
+         validate: titleInput => {
             if (titleInput) {
                 return true;
             } else {
@@ -21,7 +21,7 @@ const questions = [
         type: 'input',
         name: 'description_q1',
         message: 'What was your motivation?',
-        validate: descriptionInput => {
+         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
             } else {
@@ -34,7 +34,7 @@ const questions = [
         type: 'input',
         name: 'description_q2',
         message: 'Why did you build this project?',
-        validate: descriptionInput => {
+         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
             } else {
@@ -47,7 +47,7 @@ const questions = [
         type: 'input',
         name: 'description_q3',
         message: 'What problem does it solve?',
-        validate: descriptionInput => {
+         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
             } else {
@@ -61,7 +61,7 @@ const questions = [
         type: 'input',
         name: 'description_q4',
         message: 'What did you learn?',
-        validate: descriptionInput => {
+         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
             } else {
@@ -75,7 +75,7 @@ const questions = [
         type: 'input',
         name: 'installation',
         message: 'What steps are needed to install your project?',
-        validate: installationInput => {
+         validate: installationInput => {
             if (installationInput) {
                 return true;
             } else {
@@ -89,7 +89,7 @@ const questions = [
         type: 'input',
         name: 'usage',
         message: 'What is the use of your project?',
-        validate: usageInput => {
+         validate: usageInput => {
             if (usageInput) {
                 return true;
             } else {
@@ -103,8 +103,7 @@ const questions = [
         type: 'input',
         name: 'credits',
         message: 'List your collaborators, if any, with links to their GitHub profiles.',
-        message: 'If you followed tutorials, include links to those here as well.',
-        validate: contributionsInput => {
+         validate: contributionsInput => {
             if (contributionsInput) {
                 return true;
             } else {
@@ -119,7 +118,7 @@ const questions = [
         name: 'license',
         message: 'What license does your project use?',
         choices: ['None', 'Apache 2.0', 'MIT', 'GPL v3.0'],
-        validate: licenseInput = () => {
+         validate: licenseInput = () => {
             if (licenseInput) {
                 return true;
             } else {
@@ -133,7 +132,7 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'How do you test this project?',
-        validate: testingInput => {
+         validate: testingInput => {
             if (testingInput) {
                 return true;
             } else {
@@ -147,7 +146,7 @@ const questions = [
         type: 'input',
         name: 'github',
         message: 'What is your Github username?',
-        validate: askMeInput => {
+         validate: askMeInput => {
             if (askMeInput) {
                 return true;
             } else {
@@ -161,7 +160,7 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email?',
-        validate: emailInput => {
+         validate: emailInput => {
             if (emailInput) {
                 return true;
             } else {

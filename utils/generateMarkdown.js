@@ -8,11 +8,11 @@ const index = require('../index');
 function renderLicenseBadge(license) {
   let badge = '';
   if(license === 'MIT') {
-      badge = '![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)'
+      badge = '!(https://img.shields.io/github/license/Naereen/StrapDown.js.svg)'
   } else if (license === 'Apache 2.0') {
-      badge = '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
+      badge = '(https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
   } else if (license === 'GPL v3.0') {
-      badge = '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)'
+      badge = '(https://img.shields.io/badge/License-GPLv3-blue.svg)'
   } else {
     badge = ""
   }
@@ -43,7 +43,7 @@ function renderLicenseSection(license) {
     licenseSection = ''
   } else {
     licenseSection =
-    `License: ${license} `
+    ` ${license} `
   }
   return licenseSection;
 }
@@ -65,10 +65,11 @@ function generateMarkdown(data) {
     ${data.description_q4}
 
   ## Table of Contents:
+   * [Description](#description)
+   * [License](#license)
    * [Installation](#installation)
    * [Usage](#usage)
-   * [License](#license)
-   * [Contributors](#contributors)
+   * [Credits](#Credits)
    * [Tests](#tests)
    * [Questions](#questions)
 
@@ -84,7 +85,7 @@ function generateMarkdown(data) {
    ${data.credits}
 
   ## License:
-    ${renderLicenseSection(data.license)} ![alt text](${renderLicenseBadge(data.license)})
+    ${renderLicenseSection(data.license)} ![image](${renderLicenseBadge(data.license)})
 
   ## Tests:
    Run the following commands in your terminal to test this app:

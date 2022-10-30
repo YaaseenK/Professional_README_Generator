@@ -53,6 +53,9 @@ function generateMarkdown(data) {
 
   return`
   # ${data.title}
+
+  ## License:
+  ${renderLicenseSection(data.license)} [![GitHub license]${renderLicenseBadge(data.license)}"
   
   ## Description 
    * Motivation:
@@ -83,10 +86,6 @@ function generateMarkdown(data) {
 
   ## Credits:
    ${data.credits}
-
-  ## License:
-  ${renderLicenseSection(data.license)} [![GitHub license]${renderLicenseBadge(data.license)}"
-    
 
   ## Tests:
    Run the following commands in your terminal to test this app:
